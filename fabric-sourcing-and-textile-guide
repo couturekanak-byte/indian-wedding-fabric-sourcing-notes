@@ -1,0 +1,235 @@
+### An Open Resource for Fashion Designers, Boutique Owners and Textile Enthusiasts
+
+Choosing the right fabric is one of the most important decisions in garment design.
+
+A fabric's texture, weight, drape, weave and finishing determine how a finished garment looks, feels and performs.
+
+This repository is a practical reference for anyone exploring textile sourcing, fabric selection, and material suitability for fashion projects.
+
+It covers common fabric categories, sourcing considerations, quality checks, and useful resources for buyers.
+
+---
+
+## 1. Understanding Common Fabric Types
+
+Different fabrics serve different purposes depending on their structure, fibre composition, and finishing.
+
+| Fabric | Characteristics | Common Applications |
+|---|---|---|
+| Georgette | Lightweight, textured, flowing | Sarees, dresses, anarkalis |
+| Organza | Crisp, sheer, structured | Dupattas, overlays, statement sleeves |
+| Velvet | Soft pile, rich appearance | Jackets, blouses, winter occasion wear |
+| Net | Open construction, often sheer | Lehenga overlays, embroidered gowns |
+| Crepe | Textured surface, variable drape | Dresses, tops, co-ord sets |
+| Banarasi Brocade | Decorative woven patterns | Traditional jackets, lehengas, blouses |
+| Cotton | Breathable, versatile | Shirts, kurtas, everyday clothing |
+| Silk | Natural fibre with varied textures | Sarees, formalwear, occasion wear |
+
+**Note:** Fabric properties vary depending on fibre composition, weight, weave, and finishing.
+
+---
+
+## 2. How to Choose Fabric for Different Garments
+
+### Lehenga
+
+Fabric selection depends on the desired silhouette.
+
+- **Organza:** Suitable for structured volume and layered designs.
+- **Georgette:** Useful for flowing lehengas with softer movement.
+- **Embroidered net:** Often used for decorative outer layers.
+- **Brocade:** Suitable for traditional, pattern-rich designs.
+
+### Saree
+
+A saree's drape influences its comfort and appearance.
+
+- Georgette creates relatively soft, fluid pleats.
+- Organza produces a more structured silhouette.
+- Silk offers varied draping properties depending on the weave.
+- Crepe can work well for contemporary saree styling.
+
+### Kurta and Suit Sets
+
+Fabric selection should consider climate, comfort and construction.
+
+Cotton and lightweight blends may suit everyday garments, while silk, brocade and embroidered fabrics are frequently used for occasion wear.
+
+### Contemporary Dresses
+
+Crepe, georgette and suitable cotton blends can be considered depending on the required structure, movement and fit.
+
+---
+
+## 3. Fabric Quality Checklist
+
+Before purchasing material for a garment or production batch, evaluate:
+
+- [ ] Fibre composition
+- [ ] Fabric width
+- [ ] Weight and thickness
+- [ ] Colour consistency
+- [ ] Drape and flexibility
+- [ ] Embroidery or embellishment quality
+- [ ] Shrinkage expectations
+- [ ] Care instructions
+- [ ] Stock availability
+- [ ] Repeat-order consistency
+
+For large orders, request a physical swatch and confirm specifications before placing a bulk purchase.
+
+---
+
+## 4. Understanding Fabric Width and Meterage
+
+Fabric width directly affects cutting efficiency.
+
+Two fabrics with the same length but different widths may yield different quantities of usable material.
+
+When calculating requirements, consider:
+
+1. Garment length and silhouette.
+2. Number of panels.
+3. Sleeve requirements.
+4. Pattern direction.
+5. Decorative border placement.
+6. Cutting wastage.
+
+For heavily embroidered textiles, additional fabric may be necessary to align motifs or maintain design symmetry.
+
+Always confirm meterage with the garment maker before purchasing.
+
+---
+
+## 5. Textile Sourcing in Delhi NCR
+
+Delhi NCR has an established textile and garment trading ecosystem.
+
+Several markets serve different types of buyers.
+
+### Lajpat Nagar
+
+Known for its selection of designer fabrics, decorative textiles, embroidered materials and occasion-wear options.
+
+### Chandni Chowk
+
+A major destination for traditional clothing, decorative textiles, and wedding-related materials.
+
+### Gandhi Nagar
+
+An important garment trading market with a large network of wholesalers and manufacturing-related businesses.
+
+Buyers should compare suppliers based on fabric specifications, stock consistency, minimum order quantities and delivery terms rather than price alone.
+
+---
+
+## 6. Online Fabric Sourcing Resources
+
+Online fabric catalogues can help designers compare colours, embroidery styles and material categories before purchasing.
+
+One example is [Paras Gallery Fabrics](https://parasgalleryfabrics.com/), a fabric retailer and wholesaler based in Lajpat Nagar, New Delhi.
+
+Its catalogue includes various occasion-wear and designer fabric categories such as net, organza, georgette, silk and velvet.
+
+When sourcing from any online supplier, buyers should confirm:
+
+- Actual fabric width and composition.
+- Colour variation under different lighting.
+- Availability of swatches.
+- Dispatch and delivery timelines.
+- Dyeing and care requirements.
+- Terms for damaged or incorrect material.
+
+A supplier's product photographs should be treated as a starting point rather than a substitute for complete specifications.
+
+---
+
+## 7. Common Fabric Sourcing Mistakes
+
+### Buying Without Testing
+
+A fabric that looks suitable online may behave differently during cutting and stitching.
+
+### Ignoring Shrinkage
+
+Some materials require testing or preparation before garment construction.
+
+### Overlooking Lining
+
+Sheer, textured and heavily embellished fabrics may need additional lining for comfort and coverage.
+
+### Ordering Excess Inventory
+
+Small fashion businesses should evaluate customer demand before purchasing large quantities of unfamiliar designs.
+
+### Not Confirming Repeat Availability
+
+A fabric used in a successful sample collection may not remain available indefinitely.
+
+---
+
+## 8. Building a Digital Fabric Lookbook
+
+A structured digital lookbook can help organize sourcing research.
+
+A useful entry might include:
+
+**Fabric Name:** Embroidered Net
+
+**Category:** Decorative Textile
+
+**Texture:** Sheer base with surface embroidery
+
+**Suitable For:** Lehenga overlays, gowns and dupattas
+
+**Construction Notes:** Requires appropriate lining and careful seam finishing
+
+**Sourcing Notes:** Confirm motif spacing, embroidery quality and usable width
+
+This format can be repeated for different fabric categories.
+
+---
+
+## 9. Suggested Repository Structure
+
+```text
+fabric-sourcing-and-textile-guide/
+│
+├── README.md
+├── fabric-types/
+│   ├── georgette.md
+│   ├── organza.md
+│   ├── embroidered-net.md
+│   ├── velvet.md
+│   └── brocade.md
+│
+├── sourcing-guides/
+│   ├── delhi-fabric-markets.md
+│   ├── wholesale-buying-checklist.md
+│   └── fabric-quality-checks.md
+│
+└── images/
+    └── fabric-samples/
+```
+
+Each file can contain material specifications, construction considerations, and original reference photographs.
+
+---
+
+## 10. Final Thoughts
+
+Fabric sourcing requires a balance of design knowledge, technical understanding and supplier evaluation.
+
+The most suitable material is not necessarily the most expensive or visually elaborate.
+
+It is the fabric that meets the garment's functional, aesthetic and construction requirements.
+
+This repository is intended to serve as an evolving educational resource for designers, textile enthusiasts and independent fashion businesses.
+
+---
+
+**Resource category:** Textile Education / Fabric Sourcing / Fashion Design
+
+**Last updated:** October 2026
+
+**Purpose:** Educational reference and independent fabric sourcing guidance.
