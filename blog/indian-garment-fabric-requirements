@@ -1,0 +1,114 @@
+# Indian Garment Fabric Requirements
+
+An open, approximate reference for how much fabric common Indian garments need.
+
+It is meant for designers, tailors, students, boutique owners and developers building sizing, costing or e-commerce tools. The same data is available as JSON in [`data/requirements.json`](data/requirements.json).
+
+Maintained with input from the team at [Paras Gallery Fabrics](https://parasgalleryfabrics.com/), a fabric retail and wholesale house in Lajpat Nagar, New Delhi.
+
+> **Important:** these are rough estimates for an average adult size. Actual requirements depend on the design, size, fabric width, pattern direction, border placement and the tailor's cutting method. Always confirm with your tailor or pattern maker before buying.
+
+---
+
+## Contents
+
+- [Fabric widths](#fabric-widths)
+- [Women's wear](#womens-wear)
+- [Men's wear](#mens-wear)
+- [What changes the amount you need](#what-changes-the-amount-you-need)
+- [Using the JSON data](#using-the-json-data)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Fabric widths
+
+Most fabrics sold in India come in two common widths:
+
+| Width | Approx. cm | Notes |
+|---|---|---|
+| 44 inch | ~112 cm | Common for cotton, silk, brocade and many traditional fabrics |
+| 58 inch | ~147 cm | Common for georgette, crepe, synthetics and many modern fabrics |
+
+Wider fabric usually means fewer metres for the same garment.
+
+---
+
+## Women's wear
+
+| Garment | 44" width (m) | 58" width (m) | Notes |
+|---|---|---|---|
+| Saree blouse | 0.8 – 1.0 | 0.7 – 0.9 | More for long sleeves or special cuts |
+| Straight kurta | 2.5 – 3.0 | 2.0 – 2.5 | Knee length, three-quarter sleeves |
+| A-line kurta | 3.0 – 3.5 | 2.5 – 3.0 | Wider hem needs more |
+| Anarkali | 4.0 – 6.0 | 3.5 – 5.0 | Depends heavily on flare and number of panels |
+| Salwar | 2.5 – 3.0 | 2.0 – 2.5 | Patiala styles need more |
+| Churidar | 2.5 – 3.0 | 2.0 – 2.5 | Usually cut on the bias |
+| Palazzo | 2.5 – 3.0 | 2.0 – 2.5 | |
+| Sharara | 4.0 – 5.0 | 3.0 – 4.0 | Very wide legs need more |
+| Lehenga skirt | 3.5 – 6.0 | 3.0 – 5.0 | Depends on flare, kalis (panels) and length |
+| Dupatta | 2.25 – 2.5 | 2.25 – 2.5 | Usually sold as a finished length |
+
+---
+
+## Men's wear
+
+| Garment | 44" width (m) | 58" width (m) | Notes |
+|---|---|---|---|
+| Short kurta | 2.0 – 2.5 | 1.75 – 2.0 | Hip length |
+| Long kurta | 2.5 – 3.0 | 2.0 – 2.5 | Knee length |
+| Nehru jacket | 1.25 – 1.5 | 1.0 – 1.25 | Plus lining |
+| Bandhgala | 2.5 – 3.0 | 2.0 – 2.5 | Plus lining |
+| Sherwani | 3.0 – 3.5 | 2.5 – 3.0 | Plus lining |
+| Trousers | 1.5 – 1.75 | 1.2 – 1.5 | |
+| Churidar (men) | 2.5 – 3.0 | 2.0 – 2.5 | |
+
+---
+
+## What changes the amount you need
+
+- **Size:** larger sizes can need noticeably more fabric.
+- **Directional prints:** one-way prints cannot be rotated, so they use more fabric.
+- **Borders and panels:** fabric with borders or placed motifs needs careful layout.
+- **Matching patterns:** checks, stripes and large motifs need extra for matching seams.
+- **Bias cutting:** garments cut on the bias use more fabric.
+- **Pile fabrics:** velvet must be cut with the pile in one direction.
+- **Shrinkage:** cotton, linen and viscose may shrink, so add a little extra and pre-wash.
+- **Mistakes:** a small buffer of 10–20 cm is always sensible for expensive fabric.
+
+---
+
+## Using the JSON data
+
+The file `data/requirements.json` contains the same estimates in a structured format.
+
+Example in JavaScript:
+
+```js
+import data from "./data/requirements.json" assert { type: "json" };
+
+function estimate(garmentId, width = "58in") {
+  const item = data.garments.find((g) => g.id === garmentId);
+  if (!item) throw new Error(`Unknown garment: ${garmentId}`);
+  const [min, max] = item.metres[width];
+  return `${item.name}: ${min}–${max} m (${width} width)`;
+}
+
+console.log(estimate("anarkali", "44in"));
+// Anarkali: 4–6 m (44in width)
+```
+
+---
+
+## Contributing
+
+Corrections and additions are welcome, especially regional garments and real-world tailor estimates.
+
+1. Fork the repository.
+2. Update the Markdown tables and `data/requirements.json` together.
+3. Open a pull request explaining your source or experience.
+
+## License
+
+Shared under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Free to use and adapt with credit.
