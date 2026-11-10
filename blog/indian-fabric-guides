@@ -1,0 +1,28 @@
+# Indian Fabric Guides
+
+Short, practical guides on choosing, buying and caring for Indian bridal and festive fabrics.
+
+Written for brides, families, boutique owners, designers, students and anyone sewing with fabrics like georgette, organza, tissue, silk and Banarasi brocade.
+
+Maintained with input from the team at [Paras Gallery Fabrics](https://parasgalleryfabrics.com/), a fabric retail and wholesale house in Lajpat Nagar, New Delhi.
+
+## Guides
+
+| Guide | What it covers |
+|---|---|
+| [Fabric by occasion](guides/fabric-by-occasion.md) | Which fabrics suit haldi, mehendi, sangeet, engagement, wedding and reception |
+| [Buying checklist](guides/buying-checklist.md) | What to check at the counter or in an online listing before you buy |
+| [Fabric care](guides/fabric-care.md) | Cleaning, pressing and storing festive fabrics so they last |
+
+## Contributing
+
+Corrections and additions are welcome.
+
+1. Fork the repository.
+2. Edit an existing guide or add a new one in the `guides` folder.
+3. Keep the language plain and practical.
+4. Open a pull request explaining what you changed and why.
+
+## License
+
+Shared under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Free to use and adapt with credit.
