@@ -1,0 +1,32 @@
+# Fabric Inspection Process
+
+Practical process documentation for checking fabric when it arrives, before it is cut, sold or sent to a tailor.
+
+Written for boutiques, small labels, fabric retailers and anyone who buys fabric in bulk and wants a simple, repeatable quality check.
+
+Maintained with input from the team at [Paras Gallery Fabrics](https://parasgalleryfabrics.com/), a fabric retail and wholesale house in Lajpat Nagar, New Delhi.
+
+## Contents
+
+| Document | What it covers |
+|---|---|
+| [Four-point inspection](docs/four-point-inspection.md) | Scoring visible defects per 100 square yards |
+| [Shade and dye-lot checks](docs/shade-and-dye-lot.md) | Checking colour consistency within and between rolls |
+| [Shrinkage testing](docs/shrinkage-testing.md) | A simple wash or steam test before cutting |
+| [`scripts/four_point.py`](scripts/four_point.py) | A small script to score inspections |
+
+## Suggested workflow
+
+1. Log the delivery: supplier, fabric, design code, dye lot, roll count and metres.
+2. Run a four-point inspection on a sample of rolls.
+3. Check shade within each roll and across rolls.
+4. Run a shrinkage test on a swatch.
+5. Record results and decide: accept, accept with notes or raise with the supplier.
+
+## Contributing
+
+Corrections, real-world examples and translations are welcome. Open a pull request with a short explanation.
+
+## License
+
+Docs: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Script: free to use and adapt.
